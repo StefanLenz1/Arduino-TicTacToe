@@ -62,7 +62,7 @@ void setup(void)
 void loop() {
   for (int i = 0; i < 9; i++)
     tictactoeField[i] = EMPTY_FIELD;
-  for (int i = 0; i < 9; i++)
+  for (int i = 0; i < 8; i++)
   {
     frame[i] = B00000000;
     lc.setRow(0, i, frame[i]);
